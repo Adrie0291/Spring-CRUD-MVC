@@ -1,0 +1,15 @@
+<!DOCTYPE html>
++
+<head>
+  <meta charset="UTF-8">
+  <title>Index</title>
+  <link rel="stylesheet" href="/webjars/bootstrap/5.2.2/css/bootstrap.min.css">
+  <script src="/webjars/bootstrap/5.2.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+  Content <p th:text="'Welcome to the Jungle' + ${user.firstName} + ' ' + ${user.lastName}+ '('+ ${user.getLogin()} + ')'"></p>
+</div>
+</body>
+</html>
